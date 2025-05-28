@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+}
+.header{
+    background-color: lightblue;
+
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.topHeader,
+.bottomHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar{
+    background-color: lightcoral;
+
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 2fr 4fr;
+}
+.secondSidebarList{
+    grid-row: 4/5;
+}
+
+.mainContainer{
+    background-color: lightgreen;
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.yourProjects{
+    grid-row: 1/3;
+}
+.yourAnnouncements{
+    grid-row: 1/2
+}

@@ -1,14 +1,30 @@
 body{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 200px 900px;
+    /* grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr; */
+    margin: 0;
 }
+body > *{
+    padding: 25px;
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/* ================================ */
+
 .header{
     background-color: lightblue;
 
     grid-row: 1/2;
     display: grid;
     grid-template-rows: 1fr 2fr;
+    padding: 25px 50px;
+    padding-bottom: 0px;
 }
 .topHeader,
 .bottomHeader{
@@ -16,7 +32,17 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
+.adminInfo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.headerNotification{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+/* ================================ */
 .sidebar{
     background-color: lightcoral;
 
@@ -29,17 +55,53 @@ body{
 .secondSidebarList{
     grid-row: 4/5;
 }
-
+.sidebarHeader{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* ================================ */
 .mainContainer{
     background-color: lightgreen;
     
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 20px;
 }
 .yourProjects{
     grid-row: 1/3;
 }
 .yourAnnouncements{
     grid-row: 1/2
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.projects > div{
+    border: 1px solid black;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.announcements{
+    border: 1px solid black;
+    padding: 20px;
+}
+.trending{
+    border: 1px solid black;
+    padding: 20px;
+}
+.trending > div{
+    display: flex;
+}
+.projectBtns{
+    align-self: self-end;
 }

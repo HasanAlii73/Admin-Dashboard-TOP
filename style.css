@@ -15,16 +15,25 @@ li{
     align-items: center;
     gap: 30px;
 }
+img{
+    height: 23px;
+    width: 23px;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
 /* ================================ */
 
 .header{
-    background-color: lightblue;
+    background-color: white;
 
     grid-row: 1/2;
     display: grid;
     grid-template-rows: 1fr 2fr;
     padding: 25px 50px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 .topHeader,
 .bottomHeader{
@@ -41,6 +50,26 @@ li{
     display: flex;
     align-items: start;
     gap: 20px;
+}
+.avatar{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.bigAvatar{
+    height: 80px;
+    width: 80px;
+}
+.searchBar{
+    border-radius: 20px;
+    border: none;
+    width: 600px;
+    height: 23px;
+    background-color: #d8e5ea;
+}
+.headeBtns > button{
+    background-color: blue;
+    
 }
 /* ================================ */
 .sidebar{

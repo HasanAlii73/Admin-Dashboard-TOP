@@ -1,273 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="header">
-
-        <div class="topHeader">
-            <div class="searchBarConatiner">
-                <img src="" alt="l" class="searchLogo">
-                <input type="text" class="searchBar">
-            </div>
-            <div class="headerNotification">
-                <img src="" alt="l" class="notificationLogo">
-                <img src="" alt="l" class="upperRightLogo">
-                <p class="adminName">Morgan Oakley</p>
-            </div>
+      <div class="topHeader">
+        <div class="searchBarConatiner">
+          <img src="images/magnify.svg" alt="searchLogo" class="searchLogo" />
+          <input type="text" class="searchBar" />
         </div>
-
-        <div class="bottomHeader">
-            <div class="adminInfo">
-                <img src="" alt="adminLogo" class="adminLogo">
-                <div class="adiminHiandName">
-                    <p class="hi">Hi there</p>
-                    <p class="adminName">Morgan Oakley (@morgan)</p>
-                </div>
-            </div>
-            <div class="headerBtns">
-                <button class="new">New</button>
-                <button class="upload">Upload</button>
-                <button class="share">Share</button>
-            </div>
+        <div class="headerNotification">
+          <button>
+              <img
+                src="images/bell-ring-outline.svg"
+                alt="notificationLogo"
+                class="notificationLogo"
+              />
+          </button>
+          <img src="images/avatars/Shades-Guy.jpg" alt="upperRightLogo" class="upperRightLogo avatar" />
+          <p class="adminName">Morgan Oakley</p>
         </div>
+      </div>
+
+      <div class="bottomHeader">
+        <div class="adminInfo">
+          <img src="images/avatars/Shades-Guy.jpg" alt="adminLogo" class="adminLogo avatar bigAvatar" />
+          <div class="adiminHiandName">
+            <p class="hi">Hi there</p>
+            <p class="adminName">Morgan Oakley (@morgan)</p>
+          </div>
+        </div>
+        <div class="headerBtns">
+          <button class="new">New</button>
+          <button class="upload">Upload</button>
+          <button class="share">Share</button>
+        </div>
+      </div>
     </div>
 
     <div class="sidebar">
-        <div class="sidebarHeader">
-            <img src="" alt="sidebarLogo" class="sidebarLogo">
-            <h2>Dashboard</h2>
-        </div>
-        <div class="firstSidebarList">
-            <ul>
-                <li id="home">
-                    <img src="" alt="homeLogo">
-                    <p>Home</p>
-                </li>
-                <li id="profile">
-                    <img src="" alt="profileLogo">
-                    <p>Profile</p>
-                </li>
-                <li id="message">
-                    <img src="" alt="messageLogo">
-                    <p>Message</p>
-                </li>
-                <li id="history">
-                    <img src="" alt="historyLogo">
-                    <p>History</p>
-                </li>
-                <li id="task">
-                    <img src="" alt="taskLogo">
-                    <p>Task</p>
-                </li>
-                <li id="communities">
-                    <img src="" alt="communitiesLogo">
-                    <p>Communities</p>
-                </li>
-            </ul>
-        </div>
-        <div class="secondSidebarList">
-            <ul>
-                <li id="settings">
-                    <img src="" alt="settingsLogo">
-                    <p>Settings</p>
-                </li>
-                <li id="support">
-                    <img src="" alt="supportLogo">
-                    <p>Support</p>
-                </li>
-                <li id="privacy">
-                    <img src="" alt="privacyLogo">
-                    <p>Privacy</p>
-                </li>
-            </ul>
-        </div>
+      <div class="sidebarHeader">
+        <img src="images/view-dashboard.svg" alt="sidebarLogo" class="sidebarLogo" />
+        <h2>Dashboard</h2>
+      </div>
+      <div class="firstSidebarList">
+        <ul>
+          <li id="home">
+            <img src="images/home.svg" alt="homeLogo" />
+            <a href="">Home</a>
+          </li>
+          <li id="profile">
+            <img
+              src="images/card-account-details-outline.svg"
+              alt="profileLogo"
+            />
+            <a href="">Profile</a>
+          </li>
+          <li id="message">
+            <img src="images/message.svg" alt="messageLogo" />
+            <a href="">Message</a>
+          </li>
+          <li id="history">
+            <img src="images/history.svg" alt="historyLogo" />
+            <a href="">History</a>
+          </li>
+          <li id="task">
+            <img src="images/file-document-multiple-outline.svg" alt="taskLogo"/>
+            <a href="">Task</a>
+          </li>
+          <li id="communities">
+            <img src="images/account-group.svg" alt="communitiesLogo" />
+            <a href="">Communities</a>
+          </li>
+        </ul>
+      </div>
+      <div class="secondSidebarList">
+        <ul>
+          <li id="settings">
+            <img src="images/cog.svg" alt="settingsLogo" />
+            <a href="">Settings</a>
+          </li>
+          <li id="support">
+            <img src="images/help-box.svg" alt="supportLogo" />
+            <a href="">Support</a>
+          </li>
+          <li id="privacy">
+            <img src="images/shield-check.svg" alt="privacyLogo" />
+            <a href="">Privacy</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="mainContainer">
-        
-        <div class="yourProjects">
-            <h3>Your Projects</h3>
-            <div class="projects">
-                <div class="project1">
-                    <div class="projectText">
-                        <h4 class="projectHeader">Super Cool Project</h4>
-                        <p class="projectDesc">Sed dsfu dsj skalf ka;lfa;fi idsnafn
-                            jkalsdkjfalskdfjask sdjaf ksdlaf kasl;ffjl
-                            skafl;ksajk jksjld.
-                        </p>
-                    </div>
-                    <div class="projectBtns">
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="project2">
-                    <div class="projectText">
-                        <h4 class="projectHeader">Super Cool Project</h4>
-                        <p class="projectDesc">Sed dsfu dsj skalf ka;lfa;fi idsnafn
-                            jkalsdkjfalskdfjask sdjaf ksdlaf kasl;ffjl
-                            skafl;ksajk jksjld.
-                        </p>
-                    </div>
-                    <div class="projectBtns">
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="project3">
-                    <div class="projectText">
-                        <h4 class="projectHeader">Super Cool Project</h4>
-                        <p class="projectDesc">Sed dsfu dsj skalf ka;lfa;fi idsnafn
-                            jkalsdkjfalskdfjask sdjaf ksdlaf kasl;ffjl
-                            skafl;ksajk jksjld.
-                        </p>
-                    </div>
-                    <div class="projectBtns">
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="project4">
-                    <div class="projectText">
-                        <h4 class="projectHeader">Super Cool Project</h4>
-                        <p class="projectDesc">Sed dsfu dsj skalf ka;lfa;fi idsnafn
-                            jkalsdkjfalskdfjask sdjaf ksdlaf kasl;ffjl
-                            skafl;ksajk jksjld.
-                        </p>
-                    </div>
-                    <div class="projectBtns">
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="project5">
-                    <div class="projectText">
-                        <h4 class="projectHeader">Super Cool Project</h4>
-                        <p class="projectDesc">Sed dsfu dsj skalf ka;lfa;fi idsnafn
-                            jkalsdkjfalskdfjask sdjaf ksdlaf kasl;ffjl
-                            skafl;ksajk jksjld.
-                        </p>
-                    </div>
-                    <div class="projectBtns">
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="project6">
-                    <div class="projectText">
-                        <h4 class="projectHeader">Super Cool Project</h4>
-                        <p class="projectDesc">Sed dsfu dsj skalf ka;lfa;fi idsnafn
-                            jkalsdkjfalskdfjask sdjaf ksdlaf kasl;ffjl
-                            skafl;ksajk jksjld.
-                        </p>
-                    </div>
-                    <div class="projectBtns">
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                        <button>
-                            <img src="" alt="">
-                        </button>
-                    </div>
-                </div>
+      <div class="yourProjects">
+        <h3>Your Projects</h3>
+        <div class="projects">
+          <div class="project1">
+            <div class="projectText">
+              <h4 class="projectHeader">Super Cool Project</h4>
+              <p class="projectDesc">
+                Sed dsfu dsj skalf ka;lfa;fi idsnafn jkalsdkjfalskdfjask sdjaf
+                ksdlaf kasl;ffjl skafl;ksajk jksjld.
+              </p>
             </div>
-        </div>
-        
-        <div class="yourAnnouncements">
-            <h3>Announcements</h3>
-            <div class="announcements">
-                <div class="ann1">
-                    <h4>Site Maintenance</h4>
-                    <p>vesafadfksalfdksdf ksdf askdf,
-                        asdfasdlfsdjkfjk kdjfsak dfkl
-                        safd slf askdf nsdmf...
-                    </p>
-                </div>
-                <div class="ann2">
-                    <h4>Community Share Day</h4>
-                    <p>vesafadfksalfdksdf ksdf askdf,
-                        asdfasdlfsdjkfjk kdjfsak dfkl
-                        safd slf askdf nsdmf...
-                    </p>
-                </div>
-                <div class="ann3">
-                    <h4>Update Privacy Policy</h4>
-                    <p>vesafadfksalfdksdf ksdf askdf,
-                        asdfasdlfsdjkfjk kdjfsak dfkl
-                        safd slf askdf nsdmf...
-                    </p>
-                </div>
+            <div class="projectBtns">
+              <button>
+                <img src="images/star-plus-outline.svg" alt="starPlus" />
+              </button>
+              <button>
+                <img src="images/eye-plus.svg" alt="eyePlus" />
+              </button>
+              <button>
+                <img src="images/source-fork.svg" alt="fork" />
+              </button>
             </div>
-        </div>
-        
-        <div class="yourTrendings">
-            <h3>Trending</h3>
-            <div class="trending">
-                <div class="trend1">
-                    <img src="" alt="tendLogo">
-                    <p class="trendName">@tegan</p>
-                    <p class="trendDesc">World Peace Builder</p>
-                </div>
-                <div class="trend2">
-                    <img src="" alt="tendLogo">
-                    <p class="trendName">@morgan</p>
-                    <p class="trendDesc">Super Cool Project</p>
-                </div>
-                <div class="trend3">
-                    <img src="" alt="tendLogo">
-                    <p class="trendName">@kendall</p>
-                    <p class="trendDesc">Life Changing App</p>
-                </div>
-                <div class="trend4">
-                    <img src="" alt="tendLogo">
-                    <p class="trendName">@alex</p>
-                    <p class="trendDesc">No Traffic Maker</p>
-                </div>
+          </div>
+          <div class="project2">
+            <div class="projectText">
+              <h4 class="projectHeader">Super Cool Project</h4>
+              <p class="projectDesc">
+                Sed dsfu dsj skalf ka;lfa;fi idsnafn jkalsdkjfalskdfjask sdjaf
+                ksdlaf kasl;ffjl skafl;ksajk jksjld.
+              </p>
             </div>
+            <div class="projectBtns">
+              <button>
+                <img src="images/star-plus-outline.svg" alt="starPlus" />
+              </button>
+              <button>
+                <img src="images/eye-plus.svg" alt="eyePlus" />
+              </button>
+              <button>
+                <img src="images/source-fork.svg" alt="fork" />
+              </button>
+            </div>
+          </div>
+          <div class="project3">
+            <div class="projectText">
+              <h4 class="projectHeader">Super Cool Project</h4>
+              <p class="projectDesc">
+                Sed dsfu dsj skalf ka;lfa;fi idsnafn jkalsdkjfalskdfjask sdjaf
+                ksdlaf kasl;ffjl skafl;ksajk jksjld.
+              </p>
+            </div>
+            <div class="projectBtns">
+              <button>
+                <img src="images/star-plus-outline.svg" alt="starPlus" />
+              </button>
+              <button>
+                <img src="images/eye-plus.svg" alt="eyePlus" />
+              </button>
+              <button>
+                <img src="images/source-fork.svg" alt="fork" />
+              </button>
+            </div>
+          </div>
+          <div class="project4">
+            <div class="projectText">
+              <h4 class="projectHeader">Super Cool Project</h4>
+              <p class="projectDesc">
+                Sed dsfu dsj skalf ka;lfa;fi idsnafn jkalsdkjfalskdfjask sdjaf
+                ksdlaf kasl;ffjl skafl;ksajk jksjld.
+              </p>
+            </div>
+            <div class="projectBtns">
+              <button>
+                <img src="images/star-plus-outline.svg" alt="starPlus" />
+              </button>
+              <button>
+                <img src="images/eye-plus.svg" alt="eyePlus" />
+              </button>
+              <button>
+                <img src="images/source-fork.svg" alt="fork" />
+              </button>
+            </div>
+          </div>
+          <div class="project5">
+            <div class="projectText">
+              <h4 class="projectHeader">Super Cool Project</h4>
+              <p class="projectDesc">
+                Sed dsfu dsj skalf ka;lfa;fi idsnafn jkalsdkjfalskdfjask sdjaf
+                ksdlaf kasl;ffjl skafl;ksajk jksjld.
+              </p>
+            </div>
+            <div class="projectBtns">
+              <button>
+                <img src="images/star-plus-outline.svg" alt="starPlus" />
+              </button>
+              <button>
+                <img src="images/eye-plus.svg" alt="eyePlus" />
+              </button>
+              <button>
+                <img src="images/source-fork.svg" alt="fork" />
+              </button>
+            </div>
+          </div>
+          <div class="project6">
+            <div class="projectText">
+              <h4 class="projectHeader">Super Cool Project</h4>
+              <p class="projectDesc">
+                Sed dsfu dsj skalf ka;lfa;fi idsnafn jkalsdkjfalskdfjask sdjaf
+                ksdlaf kasl;ffjl skafl;ksajk jksjld.
+              </p>
+            </div>
+            <div class="projectBtns">
+              <button>
+                <img src="images/star-plus-outline.svg" alt="starPlus" />
+              </button>
+              <button>
+                <img src="images/eye-plus.svg" alt="eyePlus" />
+              </button>
+              <button>
+                <img src="images/source-fork.svg" alt="fork" />
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="yourAnnouncements">
+        <h3>Announcements</h3>
+        <div class="announcements">
+          <div class="ann1">
+            <a href="">Site Maintenance</a>
+            <p>
+              vesafadfksalfdksdf ksdf askdf, asdfasdlfsdjkfjk kdjfsak dfkl safd
+              slf askdf nsdmf...
+            </p>
+          </div>
+          <div class="ann2">
+            <a href="">Community Share Day</a>
+            <p>
+              vesafadfksalfdksdf ksdf askdf, asdfasdlfsdjkfjk kdjfsak dfkl safd
+              slf askdf nsdmf...
+            </p>
+          </div>
+          <div class="ann3">
+            <a href="">Update Privacy Policy</a>
+            <p>
+              vesafadfksalfdksdf ksdf askdf, asdfasdlfsdjkfjk kdjfsak dfkl safd
+              slf askdf nsdmf...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yourTrendings">
+        <h3>Trending</h3>
+        <div class="trending">
+          <div class="trend1">
+            <img src="images/avatars/Red-Head.jpg" alt="tendLogo"  class="avatar"/>
+            <div>
+                <a href="" class="trendName">@tegan</a>
+                <p class="trendDesc">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trend2">
+            <img src="images/avatars/Lesbian.jpg" alt="tendLogo"  class="avatar"/>
+            <div>
+                <a href="" class="trendName">@morgan</a>
+                <p class="trendDesc">Super Cool Project</p>
+            </div>
+          </div>
+          <div class="trend3">
+            <img src="images/avatars/Blonde-Girl.jpg" alt="tendLogo" class="avatar"/>
+            <div>
+                <a href="" class="trendName">@kendall</a>
+                <p class="trendDesc">Life Changing App</p>
+            </div>
+          </div>
+          <div class="trend4">
+            <img src="images/avatars/Beard-Guy.jpg" alt="tendLogo" class="avatar"/>
+            <div>
+                <a href="" class="trendName">@alex</a>
+                <p class="trendDesc">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

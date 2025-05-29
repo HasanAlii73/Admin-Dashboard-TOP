@@ -6,6 +6,7 @@ body{
     grid-template-rows: 1fr 3fr; */
     margin: 0;
     gap: 10px 0;
+    background-color: #d8e5ea;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body > *{
@@ -25,6 +26,10 @@ button{
     border: none;
     background: none;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 /* ================================ */
 
@@ -68,7 +73,8 @@ button{
     border-radius: 20px;
     border: none;
     width: 600px;
-    height: 23px;
+    height: 10px;
+    padding: 10px;
     background-color: #d8e5ea;
 }
 .headerBtns > button{
@@ -134,9 +140,10 @@ button{
     gap: 20px;
 }
 .projects > div{
-    border: 1px solid black;
+    border-left: 10px solid rgb(255, 208, 0);
     padding: 20px;
-
+    background-color: white;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -144,16 +151,33 @@ button{
 }
 
 .announcements{
-    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ann1, .ann2{
+    border-bottom: 1px solid gray;
 }
 .trending{
-    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .trending > div{
     display: flex;
+    gap: 20px;
 }
 .projectBtns{
     align-self: self-end;
+}
+.projectDesc,
+.annDesc,
+.trendDesc{
+    color: grey;
 }
